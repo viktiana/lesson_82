@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            background: #222222;
+        }
+
+        .picture {
+            width: 700px;
+            height: 450px;
+            margin: 30px auto;
+            background: rgb(132, 131, 131);
+            position: relative;
+         
+        }
+
+        .yellow {
+            position: absolute;
+            width: 280px;
+            height: 380px;
+            background: #e4bd22;
+        }
+
+        .blue {
+            position: absolute;
+            left: 200px;
+            width: 100px;
+            height: 260px;
+            background: rgb(40, 40, 186);
+            transform: rotate(-10deg);
+        }
+
+        .chair {
+            position: absolute;
+            right: 80px;
+            top: 120px;
+            width: 200px;
+            height: 260px;
+            background: #4e3939;
+            border-radius: 40px;
+        }
+
+        .head {
+            position: absolute;
+            left: 320px;
+            top: 65px;
+            width: 100px;
+            height: 120px;
+            background: #e0a38e;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .hair {
+            position: absolute;
+            left: 330px;
+            top: 55px;
+            width: 80px;
+            height: 35px;
+            background: #eeeaea;
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        .hair-left {
+            position: absolute;
+            left: 320px;
+            top: 80px;
+            width: 20px;
+            height: 50px;
+            background: #eeeaea;
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        .hair-right {
+            position: absolute;
+            left: 400px;
+            top: 80px;
+            width: 20px;
+            height: 50px;
+            background: #eeeaea;
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        .ear-left {
+            position: absolute;
+            left: 310px;
+            top: 100px;
+            width: 20px;
+            height: 40px;
+            background: #e0a38e;
+            border-radius: 50%;
+        }
+
+        .ear-right {
+            position: absolute;
+            left: 410px;
+            top: 100px;
+            width: 20px;
+            height: 40px;
+            background: #e0a38e;
+            border-radius: 50%;
+        }
+
+        .body {
+            position: absolute;
+            left: 250px;
+            top: 170px;
+            width: 250px;
+            height: 220px;
+            background: #182333;
+            border-radius: 70px 70px 0 0;
+        }
+
+        .shirt {
+            position: absolute;
+            left: 345px;
+            top: 170px;
+            width: 50px;
+            height: 130px;
+            background: white;
+        }
+
+        .tie {
+            position: absolute;
+            left: 360px;
+            top: 175px;
+            width: 20px;
+            height: 130px;
+            background: #333;
+        }
+
+        .arm {
+            position: absolute;
+            left: 220px;
+            top: 270px;
+            width: 150px;
+            height: 50px;
+            background: #182333;
+            transform: rotate(15deg);
+            border-radius: 20px;
+        }
+
+        .hand {
+            position: absolute;
+            left: 340px;
+            top: 270px;
+            width: 45px;
+            height: 35px;
+            background: #d99a85;
+            border-radius: 50%;
+        }
+
+        .table {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            background: #4b3930;
+        }
+
+        .name {
+            position: absolute;
+            left: 150px;
+            bottom: 55px;
+            width: 150px;
+            height: 45px;
+            background: #ece9e9;
+            border: 3px solid #555;
+            text-align: center;
+            font-size: 12px;
+            padding-top: 5px;
+        }
+
+        .phone {
+            position: absolute;
+            right: 40px;
+            bottom: 55px;
+            width: 130px;
+            height: 45px;
+            background: #f1eded;
+            border-radius: 10px;
+        }
+
+        .number {
+            position: absolute;
+            left: 15px;
+            bottom: 10px;
+            color: #e5b900;
+            background: white;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .watermark {
+            position: absolute;
+            right: 15px;
+            top: 190px;
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="picture">
+
+        <div class="yellow"></div>
+        <div class="blue"></div>
+
+        <div class="chair"></div>
+
+        <div class="hair"></div>
+        <div class="hair-left"></div>
+        <div class="hair-right"></div>
+        <div class="head"></div>
+        <div class="ear-left"></div>
+        <div class="ear-right"></div>
+
+        <div class="body"></div>
+        <div class="shirt"></div>
+        <div class="tie"></div>
+
+        <div class="arm"></div>
+        <div class="hand"></div>
+
+        <div class="table"></div>
+
+        <div class="name">
+            Прем'єр-міністр України
+        </div>
+
+        <div class="phone"></div>
+
+        <div class="number">5</div>
+
+        <div class="watermark">5.ua</div>
+
+    </div>
+
+</body>
+
+</html>
